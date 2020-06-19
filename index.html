@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eu">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +11,17 @@
 	<!-- arquivo de customização style.css -->
 	<link rel="stylesheet" type="text/css" href="resource/css/style.css">
 
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
 </head>
 <body class="site">
 
 	<!-- Menu do site -->
-	<section class="menu container-fluid">
+	<section class="container-fluid" id="menu">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#">
-				<img src="resource/imagens/logo.svg" width="130" height="40" class="d-inline-block align-top" alt="">
+				<img src="resource/imagens/logo.svg" width="130" height="40" class="d-inline-block align-top" alt="logo">
 			</a>
 			<button class="navbar-toggler branco" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -27,19 +30,41 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+						<a class="nav-link Raleway" href="#">Features <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Team <span class="sr-only">(current)</span></a>
+						<a class="nav-link Raleway" href="#">Team <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item" >
-						<a id="assinar" class="nav-link" href="#">Sign in <span class="sr-only">(current)</span></a>
+						<a id="assinar" class="nav-link Raleway" href="#">Sign in <span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</section>
 	<!-- Menu do site -->
+
+
+	<!-- Home do site -->
+	<section class="container" id="home">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 ">
+				<div class="img-fluid" align="center">
+					<img src="resource/imagens/illustration-intro.png" alt="illustração intro" width="65%">
+				</div>
+				<div class="text-home pt-5">
+					<h2 class="text-center Open_Sans">All your files in one secure location,<br>
+					accessible anywhere.</h2>
+					<p class="text-center pt-2 Raleway line-height">Fylo stores all your most important files in one secure location.<br> Access them wherever 
+					you need, share and collaborate with<br> friends family, and co-workers.</p>
+				</div>
+				<div class="pt-3" align="center">
+					<button type="button" class="btn btn-info btn-lg buttom-radius">Get Started</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Home do site -->
 
 
 	
