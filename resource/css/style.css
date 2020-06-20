@@ -1,12 +1,10 @@
 /*Fontes*/
 .Raleway{
 	font-family: 'Raleway', sans-serif;
-	color:hsl(0, 0%, 100%);
 	font-size: 14px;
 }
 .Open_Sans{
 	font-family: 'Open Sans', sans-serif;
-	color:hsl(0, 0%, 100%);
 }
 /*Fontes*/
 
@@ -63,4 +61,6 @@
 	line-height: 1.6em;
 }
 /*Css da home*/
+
+
 
