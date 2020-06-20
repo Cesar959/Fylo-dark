@@ -62,5 +62,17 @@
 }
 /*Css da home*/
 
+/*Css da equipe*/
+#equipe{
+	color: #ffff;
+}
+
+.link{
+	color: hsl(176, 68%, 64%);
+}
+
+.link:hover{
+	color: hsl(198, 60%, 50%);
+}
 
 
