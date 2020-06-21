@@ -75,4 +75,23 @@
 	color: hsl(198, 60%, 50%);
 }
 
+/* Css de depoimentos*/
+.img-perfil{
+	border-radius: 50%;
+	width: 50px;
+}
+
+.cor-card{
+	background: hsl(219, 30%, 18%);
+	color: #fff;
+}
+
+.icone-depoimentos{
+	position: absolute;
+	left: 8%;
+	z-index: 0;
+}
+
+
+/* Css de depoimentos*/
 
