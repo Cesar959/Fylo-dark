@@ -90,8 +90,19 @@
 	position: absolute;
 	left: 8%;
 	z-index: 0;
+	margin-top: 30px;
 }
 
-
 /* Css de depoimentos*/
+
+/*Css de Inscreva-se*/
+.card-inscreva{
+	background: hsl(217, 28%, 15%);
+	color: #fff;
+}
+
+.radius-4{
+	border-radius: 40px;
+}
+/*Css de Inscreva-se*/
 
