@@ -106,3 +106,38 @@
 }
 /*Css de Inscreva-se*/
 
+
+/*Css do rodape*/
+#rodape{
+	color: #fff;
+	margin-top: -70px;
+	background: hsl(216, 53%, 9%);
+	padding: 10px 60px;
+}
+
+.logo-rodape{
+	padding-top: 140px;
+}
+
+.social-radius{
+	border-radius: 40px;
+}
+
+.btn-outline-instagram {
+  color: #D43390;
+  border-color: #D43390;
+}
+
+.btn-outline-instagram:hover {
+  color: #fff;
+  background-color: #D43390;
+  border-color: #D43390;
+}
+
+.btn-outline-instagram:focus, .btn-outline-instagram.focus {
+  box-shadow: 0 0 0 0.2rem #D43390;
+}
+
+/*Css do rodape*/
+
+
