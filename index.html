@@ -17,18 +17,17 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
 </head>
-<body class="site">
+<body class="background-claro">
 
 	<!-- Menu do site -->
 	<section class="container-fluid" id="menu">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#">
-				<img src="resource/imagens/logo.svg" width="130" height="40" class="d-inline-block align-top" alt="logo">
+				<img src="resource/imagens/logo.svg" width="80%" height="60%" class="d-inline-block align-top" alt="logo">
 			</a>
 			<button class="navbar-toggler branco" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
@@ -65,14 +64,26 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- Home do site -->
+		</div>
+	</section>
+	<!-- Home do site -->
 
+
+	<!-- Ondulação do background -->
+	<section class="container-fluid svg">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1429 365.02">
+			<path class="cls-1" d="M-22,768s172,6.19,333-215.93c65-54,161-31.86,241-8,80,8,164,28.32,260-71.68,69-64.6,154-90.26,234-50.44,74,51.33,118,168.14,173,182.3,57,25.66,188,72.57,188,72.57V768Z" transform="translate(22 -403)"/>
+		</svg>
+	</section>
+	<!-- Ondulação do background -->
+
+	<!-- conteudo do site -->
+	<div class="container-fluid background-escuro">
 
 		<!-- Recursos do site -->
 		<section class="container">
 			<div class="col-lg-12 col-md-12 col-sm-12">
-				<div class="row" align="center">
+				<div  class="row" align="center">
 					<div class="col-lg-6 col-md-6 col-sm-12 p-5">
 						<div class="card-transparent">
 							<img class="pb-3" src="resource/imagens/icon-access-anywhere.svg" alt="">
@@ -87,7 +98,7 @@
 						<div class="card-transparent">
 							<img class="pb-3" src="resource/imagens/icon-security.svg" alt="">
 							<div class="text-center text-white ">
-								<h2 class="Open_Sans" style="font-size: 20px;">Security you can trust</h2>s
+								<h2 class="Open_Sans" style="font-size: 20px;">Security you can trust</h2>
 								<p class="pt-2 Raleway line-height">2-factor authentication and user-controlled encryption are just a couple of the security 
 								features we allow to help secure your files.</p>
 							</div>
@@ -208,30 +219,30 @@
 				</div>
 			</div>
 		</section>
-
 		<!-- Depoimentos do site -->
 
 
 		<!-- Inscreva-se do site -->
-		<section class="container pt-5" id="inscricao">
+		<section class="container py-5" id="inscricao">
 			<div class="row" align="center">
 				<div class="col-lg-12 col-sm-12">
-
-					<div class="card w-75 card-inscreva">
+					<div class="card w-75 card-inscreva py-3">
 						<div class="card-body">
 							<h5 class="Open_Sans"> Get early access today</h5>
 							<p class="Raleway">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
 							questions, our support team would be happy to help you.</p>
-							<div class="row">
-								<div class="col-lg-8 pb-2">
-									<input type="email" class="form-control radius-4" id="exampleInputEmail1">
-								</div>
-								<div class="col-lg-4">
-									<div align="center">
-										<button type="button" class="btn btn-info radius-4 px-5">Get Started For Free</button>
+							<form action="#" method="get">
+								<div class="row">
+									<div class="col-lg-8 pb-2">
+										<div class="form-group">
+											<input type="email" class="form-control radius-4" id="exampleInputEmail1">
+										</div>
+									</div>
+									<div class="col-lg-4" align="center">
+										<button type="submit" class="btn btn-info px-5 radius-4">Get Started For Free</button>
 									</div>
 								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -239,9 +250,12 @@
 		</section>
 		<!-- Inscreva-se do site -->
 
-		
-		<!-- Rodape do site -->
-		<section class="container-fluid" id="rodape">
+	</div>
+	<!-- conteudo do site -->
+
+	<!-- Rodape do site -->
+	<section class="container-fluid" id="rodape">
+		<div class="pb-4">
 			<div class="row">
 				<div class="col-lg-12 logo-rodape">
 					<img src="resource/imagens/logo.svg" alt="">
@@ -279,8 +293,9 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- Rodape do site -->
+		</div>
+	</section>
+	<!-- Rodape do site -->
 
 
 
@@ -288,12 +303,12 @@
 
 
 
-		<!-- CDN do jquery-3.5.1 -->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<!-- Arquivos do bootstrap bootstrap.js -->
-		<script type="text/javascript" src="resource/js/bootstrap.min.js"></script>
-		<!-- CDN do popper.js -->
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<!-- CDN do jquery-3.5.1 -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!-- Arquivos do bootstrap bootstrap.js -->
+	<script type="text/javascript" src="resource/js/bootstrap.min.js"></script>
+	<!-- CDN do popper.js -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-	</body>
-	</html>
+</body>
+</html>

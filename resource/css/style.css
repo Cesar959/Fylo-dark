@@ -10,8 +10,8 @@
 
 /*Css do menu*/
 
-.site{
-	background: hsl(218, 28%, 13%);
+.background-claro{
+	background: #1c2431;
 }
 
 #menu{
@@ -104,13 +104,20 @@
 .radius-4{
 	border-radius: 40px;
 }
+
+#inscricao{
+	position: relative;
+	z-index: 1;
+}
 /*Css de Inscreva-se*/
 
 
 /*Css do rodape*/
 #rodape{
+	position: absolute;
+	z-index: 0;
 	color: #fff;
-	margin-top: -70px;
+	margin-top: -150px;
 	background: hsl(216, 53%, 9%);
 	padding: 10px 60px;
 }
@@ -124,20 +131,34 @@
 }
 
 .btn-outline-instagram {
-  color: #D43390;
-  border-color: #D43390;
+	color: #D43390;
+	border-color: #D43390;
 }
 
 .btn-outline-instagram:hover {
-  color: #fff;
-  background-color: #D43390;
-  border-color: #D43390;
+	color: #fff;
+	background-color: #D43390;
+	border-color: #D43390;
 }
 
 .btn-outline-instagram:focus, .btn-outline-instagram.focus {
-  box-shadow: 0 0 0 0.2rem #D43390;
+	box-shadow: 0 0 0 0.2rem #D43390;
 }
 
 /*Css do rodape*/
 
+.background-escuro{
+	background:hsl(218, 28%, 13%); 
+}
+
+
+/*Bacground do site*/
+.svg{
+	padding: 0px; 
+	margin-top: -10rem;
+	margin-bottom: 0px; 
+	width: 100%;
+	fill:hsl(218, 28%, 13%);
+}
+/*Bacground do site*/
 
