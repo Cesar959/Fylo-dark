@@ -5,7 +5,7 @@
  </p>
 
 
-Criação do site Fylo dark baseado no desafio proposto pela Frontend Mentor que sugeriu desafios reais do mercado de trabalho afim de ajudar no desenvolvimento de novas habilidades de programação.
+Criação da template Fylo dark baseado no desafio proposto pela Frontend Mentor que sugeriu desafios reais do mercado de trabalho afim de ajudar no desenvolvimento de novas habilidades de programação.
 
 ## Descrição
 
@@ -29,7 +29,7 @@ O site foi Construido com o framework Bootstrap 4,  as dificuldades encontradas 
 
 ## Autor
 
-* **Cesar dos Santos de Almeida** - *responsável pela construção e desenvolvimento do site*
+* **Cesar dos Santos de Almeida** - *responsável pela construção e desenvolvimento da template do site*
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo  [LICENSE.md](LICENSE.md) para obter detalhes
